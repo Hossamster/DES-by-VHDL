@@ -1,0 +1,28 @@
+# vsim work.encrypt_tb -sdftyp/ dut=./quartus/encrypt/simulation/modelsim/encrypt_vhd.sdo 
+# Start time: 18:44:48 on Jun 10,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.encrypt_tb(behavior)
+# SDF 10.5b Compiler 2016.10 Oct  5 2016
+# 
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading cycloneive.cycloneive_atom_pack(body)
+# Loading cycloneive.cycloneive_components
+# Loading work.encrypt(structure)
+# Loading work.hard_block(structure)
+# Loading ieee.std_logic_arith(body)
+# Loading cycloneive.cycloneive_io_obuf(arch)
+# Loading cycloneive.cycloneive_io_ibuf(arch)
+# Loading cycloneive.cycloneive_lcell_comb(vital_lcell_comb)
+# Loading instances from ./quartus/encrypt/simulation/modelsim/encrypt_vhd.sdo
+# Loading timing data from ./quartus/encrypt/simulation/modelsim/encrypt_vhd.sdo
+# ** Warning: Design size of 324824 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /encrypt_tb File: encrypt_tb.vhd
+add wave sim:/encrypt_tb/*
+run
+# End time: 18:47:25 on Jun 10,2021, Elapsed time: 0:02:37
+# Errors: 0, Warnings: 1
